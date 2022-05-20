@@ -1,0 +1,4 @@
+package {
+  "apparmor":
+    ensure   => 'absent',
+}
