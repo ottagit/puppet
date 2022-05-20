@@ -1,6 +1,6 @@
 package {
   "ruby":
-    ensure   => '3.0.0',
+    ensure   => 'installed',
 }
 
 package {
