@@ -1,6 +1,6 @@
 package {
   "ruby":
-    ensure   => 'installed',
+    ensure   => 'latest',
 }
 
 package {
