@@ -1,0 +1,3 @@
+user{"batoto":
+  ensure    => 'absent',
+}
