@@ -4,7 +4,7 @@ group{"devs":
 }
 
 user{"batoto":
-  ensure => 'absent',
+  ensure => 'present',
   home   => "/home/batoto",
   uid    => '3001',
   shell  => '/bin/bash',
