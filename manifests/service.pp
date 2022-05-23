@@ -1,5 +1,5 @@
 service {
   "sshd":
-    ensure   => 'running',
-    enable   => 'true',
+    ensure   => running,
+    enable   => true,
 }
