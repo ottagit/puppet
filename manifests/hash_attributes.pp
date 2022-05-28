@@ -1,6 +1,6 @@
 $attributes = {
-  'owner' => 'ubuntu',
-  'group' => 'ubuntu',
+  'owner' => 'batoto',
+  'group' => 'batoto',
   'mode'  => '0644',
 }
 
