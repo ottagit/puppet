@@ -1,6 +1,6 @@
 file {
   "/opt/puppetlabs/facter/facter.d/date.sh":
     source => '/examples/date.sh',
-    ensure => 'file',
+    ensure => present,
     mode   => '0755',
 }
