@@ -21,3 +21,5 @@ hierarchy:
     path: "os/%{facts.os.distro.codename}.yaml"
   - name: "Common defaults"
     path: "common.yaml"
+  - name: "Sample Hiera"
+    path: "hiera_sample.yaml"
