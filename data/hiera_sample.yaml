@@ -1,9 +1,9 @@
 ips:
-  home: '10.43.56.78'
-  office1: '10.43.56.90'
-  office2: '10.43.59.75'
+  home2: '10.43.56.78'
+  office3: '10.43.56.90'
+  office4: '10.43.59.75'
 firewall_allow_list:
-  - "%{lookup('ips.home')}"
-  - "%{lookup('ips.office1')}"
-  - "%{lookup('ips.office2')}"
+  - "%{lookup('ips.home2')}"
+  - "%{lookup('ips.office3')}"
+  - "%{lookup('ips.office4')}"
 vpn_allow_list: "%{alias('firewall_allow_list')}"
