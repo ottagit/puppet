@@ -1,0 +1,8 @@
+ips:
+  home: '10.43.56.78'
+  office1: '10.43.56.90'
+  office2: '10.43.59.75'
+firewall_allow_list:
+  - "%{lookup('ips.home')}"
+  - "%{lookup('ips.office1')}"
+  - "%{lookup('ips.office2')}"
