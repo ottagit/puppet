@@ -6,3 +6,4 @@ firewall_allow_list:
   - "%{lookup('ips.home')}"
   - "%{lookup('ips.office1')}"
   - "%{lookup('ips.office2')}"
+vpn_allow_list: "%{alias('firewall_allow_list')}"
