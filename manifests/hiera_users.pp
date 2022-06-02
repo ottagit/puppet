@@ -4,7 +4,7 @@ lookup('users', Array[String]).each | String $username | {
   }
 }
 
-lookup('user2', Hash, 'hash').each | String $username, Hash $attrs | {
+lookup('users2', Hash, 'hash').each | String $username, Hash $attrs | {
   user{"$username":
     *      => $attrs,
   }
