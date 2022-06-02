@@ -1,4 +1,0 @@
-package {
-  "tmux":
-    ensure   => 'installed',
-}
