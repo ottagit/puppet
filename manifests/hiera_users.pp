@@ -8,3 +8,4 @@ lookup('user2', Hash, 'hash').each | String $username, Hash $attrs | {
   user{"$username":
     *      => $attrs,
   }
+}
